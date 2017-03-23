@@ -7,7 +7,7 @@ module.exports = {
     devtool: 'eval-source-map', //开启sourceMap便于调试
     entry: './js/index.js', //入口文件
     output: {
-        path: path.resolve(__dirname, 'build'), // 指定打包之后的文件夹
+        path: path.resolve(__dirname, 'docs'), // 指定打包之后的文件夹
         filename: '[name].js' // 可以打包为多个文件
     },
     // 使用loader模块
