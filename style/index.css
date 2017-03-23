@@ -142,7 +142,7 @@ body{
     visibility: hidden;
 }
 .fleece{
-    background: url(..imgs/fleece_small.png) no-repeat;
+    background: url(../imgs/fleece_small.png) no-repeat;
     padding-left: 20px;
     display: inline-block;
     line-height: 100%;
