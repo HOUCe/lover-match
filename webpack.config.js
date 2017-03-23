@@ -47,7 +47,8 @@ module.exports = {
         hot: true, // 配置HMR之后可以选择开启
         historyApiFallback: true, // 不跳转
         inline: true, // 实时刷新
-        port: 8083
+        port: 8083,
+        host: '0.0.0.0'
     },
     plugins: [
         new HtmlWebpackPlugin({
