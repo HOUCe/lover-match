@@ -19,10 +19,10 @@ let attempts = 0;
 let correct = 0;
 
 const captions = [];
-    captions[11] = "we will rock you,yes it is you,yes it is you,yes it is you,yes it is you";
-    captions[12] = "we will rock you,yes it is you,yes it is you,yes it is you,yes it is you";
-    captions[13] = "we will rock you,yes it is you,yes it is you,yes it is you,yes it is you";
-    captions[14] = "we will rock you,yes it is you,yes it is you,yes it is you,yes it is you";
+    captions[11] = "So it's gonna be forever, Or it's gonna go down in flames. <br><br>You can tell me when it's over.If the high was worth the pain.<br><br>Got a long list of ex-lovers.They'll tell you I'm insane.<br><br>Cause you know I love the players.And you love the game.";
+    captions[12] = "“Because you are beautiful. <br>I enjoy looking at beautiful people, and I decided a while ago not to deny myself the simpler pleasures of existence” <br><br><br>“Right, of course. But you keep the promise anyway. Thats what love is. Love is keeping the promise anyway.”";
+    captions[13] = "“And yes, love at first sight does exist,” <br><br><br>she says, addressing an imaginary younger Victoria. <br><br><br>“It will happen to you in the Manchester United players’ lounge—although you will get a little drunk, so exact details are hazy.”";
+    captions[14] = "Mia: “It's pretty strange that we keep running into one another.” <br><br>Sebastian: “Maybe it means something.”<br><br>Mia: “I doubt it.”<br><br>Sebastian: “Yeah, I didn't think so.”";
 const allNames = ['0', '1', '2', '3'];
 
 const dd1 = new DD({
@@ -99,16 +99,17 @@ function showInfo (index) {
     detailEle.show();
     detailEle.animate({ opacity: '1' }, 500);
 
-    var img = new Image();
-    img.src = "imgs/" + index + ".jpg";
-    img.style.width = '263px';
-    $("#detail #photoCon").empty().append(img);
+    // var img = new Image();
+    // img.src = "imgs/" + index + ".jpg";
+    // img.style.width = '263px';
+    // $("#detail #photoCon").empty().append(img);
+    $('#photoCon').removeClass().addClass('result'+index);
 
     Typed.new("#desc", {
         strings: [captions[index]],
         stringsElement: null,
         // typing speed
-        typeSpeed: 0,
+        typeSpeed: 10,
         // time before typing starts
         startDelay: 1000,
         // backspacing speed
@@ -204,7 +205,7 @@ $("#closebtn").click(function() {
             strings: ["It took you " + attempts + " attempts to match them all. Share your score!"],
             stringsElement: null,
             // typing speed
-            typeSpeed: 0,
+            typeSpeed: 10,
             // time before typing starts
             startDelay: 1000,
             // backspacing speed

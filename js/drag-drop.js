@@ -101,7 +101,7 @@ class DragDrop {
         }
     }
     getTransform() {
-        var transform = '';
+        let transform = '';
         let divStyle = document.createElement('div').style;
         let transformArr = ['transform', 'webkitTransform', 'MozTransform', 'msTransform', 'OTransform'];
         var i = 0;

@@ -75,8 +75,8 @@ body{
     vertical-align: middle;
 }*/
 .cover1 {
-    background-image: url(../imgs/profile.png);
-    background-size: contain;
+    background-image: url(../imgs/tom.jpg);
+    background-size: cover;
     background-position: 50% 50%;
     width: 80px;
     height: 80px;
@@ -84,8 +84,8 @@ body{
     margin: 10px auto;
 }
 .cover2 {
-    background-image: url(../imgs/profile.png);
-    background-size: contain;
+    background-image: url(../imgs/starman.jpg);
+    background-size: cover;
     background-position: 50% 50%;
     width: 80px;
     height: 80px;
@@ -93,8 +93,8 @@ body{
     margin: 10px auto;
 }
 .cover3 {
-    background-image: url(../imgs/profile.png);
-    background-size: contain;
+    background-image: url(../imgs/beckham.jpg);
+    background-size: cover;
     background-position: 50% 50%;
     width: 80px;
     height: 80px;
@@ -102,8 +102,8 @@ body{
     margin: 10px auto;
 }
 .cover4 {
-    background-image: url(../imgs/profile.png);
-    background-size: contain;
+    background-image: url(../imgs/lalaman.jpg);
+    background-size: cover;
     background-position: 50% 50%;
     width: 80px;
     height: 80px;
@@ -111,23 +111,23 @@ body{
     margin: 10px auto;
 }
 .cover5 {
-    background-image: url(../imgs/profile.png);
-    background-size: contain;
+    background-image: url(../imgs/stargirl.jpg);
+    background-size: cover;
     background-position: 50% 50%;
 }
 .cover6 {
-    background-image: url(../imgs/profile.png);
-    background-size: contain;
+    background-image: url(../imgs/swift.jpg);
+    background-size: cover;
     background-position: 50% 50%;
 }
 .cover7 {
-    background-image: url(../imgs/profile.png);
-    background-size: contain;
-    background-position: 50% 50%;
+    background-image: url(../imgs/vectoria.jpg);
+    background-size: cover;
+    background-position: 50% 4%;
 }
 .cover8 {
-    background-image: url(../imgs/profile.png);
-    background-size: contain;
+    background-image: url(../imgs/lalagirl.jpg);
+    background-size: cover;
     background-position: 50% 50%;
 }
 .clearfix {
@@ -150,6 +150,7 @@ body{
     font-size: 14px;
     color: #138A64;
     text-decoration: none;
+    user-select:none;
 }
 .selected{
     opacity: 0.4;
@@ -228,3 +229,37 @@ p{
     left: 52px;
     width: 600px;
 }
+
+.result12{
+    width: 250px;
+    height: 350px;
+    background-image: url(../imgs/12.jpg);
+    background-size: cover;
+    background-position: 24% 100%;
+}
+.result14{
+    width: 250px;
+    height: 350px;
+    background-image: url(../imgs/14.jpg);
+    background-size: cover;
+    background-position: 5% 50%;
+}
+.result13{
+    width: 250px;
+    height: 350px;
+    background-image: url(../imgs/13.jpg);
+    background-size: cover;
+    background-position: 50% 22%;
+}
+.result11{
+    width: 250px;
+    height: 350px;
+    background-image: url(../imgs/11.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+
+
+
+
