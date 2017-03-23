@@ -2,7 +2,7 @@ html{
 /*    background-position: 50% 50%;*/
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1489931879219&di=040e24fa10e41b5df4d7cbc0d2727754&imgtype=0&src=http%3A%2F%2Fbbs.crsky.com%2F1236983883%2FMon_1207%2F25_184488_405c3aabde3a8ec.jpg)
+    background-image: url(../imgs/bg.jpeg)
 }
 body{
     line-height: 1.62;
@@ -142,7 +142,7 @@ body{
     visibility: hidden;
 }
 .fleece{
-    background: url(https://img3.doubanio.com/f/music/d61397f8efe08f2988bd187f2085461bcfc5ce7a/pics/music/home/fleece_small.png) no-repeat;
+    background: url(..imgs/fleece_small.png) no-repeat;
     padding-left: 20px;
     display: inline-block;
     line-height: 100%;
